@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="proiect_mobile2.AboutPage"
+             Title="AboutPage">
+    <VerticalStackLayout Spacing="10" Margin="10">
+        <HorizontalStackLayout Spacing="10">
+            <Image Source="shop_list.png"
+ SemanticProperties.Description="My Reservations"
+HeightRequest="64" />
+            <Label FontSize="22" FontAttributes="Bold" Text="." VerticalOptions="End" />
+            <Label  Text="Whether you are travelling for business or pleasure, the luxury hotel services offered by the five star Grand Palace Hotel make it an ideal choice for your stay in Riga, Latvia. The hotel's luxurious surroundings, comfort, thoughtful touches and a personalized service sets it apart from any other hotel, allowing you to feel like being at home from your very first steps into the hotel.
+
+We are geared towards the fulfilment of the needs of any discerning guest and below you can find an alphabetical overview of the most commonly-used services and facilities offered by our boutique hotel" VerticalOptions="End" />
+        </HorizontalStackLayout>
+        <Label Text="Hotel Services:
+Car rental services
+Catering services
+Concierge services
+Courier services
+Doctor on call
+Dry cleaning
+Excursions and guided tours
+Flower arrangement
+Ironing service
+Laundry and valet service
+Mail services
+Massages
+Room service (24-hour)
+Shoeshine service" />
+
+    </VerticalStackLayout>
+</ContentPage>
